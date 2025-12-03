@@ -81,7 +81,7 @@ ROS 控制主要通过启动一个用于接收指令的 Launch 文件和一个�
 | **运动控制 Demo** | `source devel/setup.sh && rosrun arx_x5_controller single_arm_test` | ROS 版本的单臂运动控制 Demo。常与 `detection.py` 配合进行抓取测试。 |
 | **测试节点** | `source devel/setup.sh && rosrun arx_x5_controller qytest` | 运行特定的测试节点。 |
 
-> **注意：** 在执行抓取任务时，通常是先开 `open_keyboard_control.launch`，然后开运动控制 Demo (`single_arm_test`)，再开视觉检测 (`detection.py`)。
+> **注意：** 在执行抓取任务时，通常是先开 `open_keyboard_control.launch`，然后开视觉检测 (`detection.py`)，最后开运动控制 Demo (`single_arm_test`)。
 
 ## 5. 🛑 结束操作
 
